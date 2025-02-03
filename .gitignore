@@ -1,0 +1,41 @@
+# Ignore node_modules, .pnp, yarn, etc. in any subdirectory
+**/node_modules/
+**/.pnp/
+**/.pnp.*
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/versions
+
+# Ignore coverage directories in any subdirectory
+**/coverage/
+
+# Ignore next.js build output in any subdirectory
+**/.next/
+**/out/
+
+# Ignore build directories in any subdirectory
+**/build/
+
+# Ignore .DS_Store files across all subdirectories
+**/.DS_Store
+
+# Ignore .pem files in any subdirectory
+**/*.pem
+
+# Ignore debug logs in any subdirectory
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.pnpm-debug.log*
+
+# Ignore environment variable files in any subdirectory
+**/.env*
+
+# Ignore Vercel directory in any subdirectory
+**/.vercel/
+
+# Ignore TypeScript build info and next-env.d.ts files in any subdirectory
+**/*.tsbuildinfo
+**/next-env.d.ts

@@ -17,6 +17,7 @@ To get started, follow the steps below to set up the demo application on your lo
 2. Install dependencies:
 
 cd nextjs-demo-app
+
 npm install
 
 3. Run the application:

@@ -1,5 +1,5 @@
 export default async function DisplayPage({params,}:{
-    params:Promise<{productIdandnames:String}>;
+    params:Promise<{productIdandnames:string}>;
 }){
     const productIdandnames = (await params).productIdandnames;
     return (

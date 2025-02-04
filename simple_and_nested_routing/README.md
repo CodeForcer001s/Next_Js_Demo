@@ -68,3 +68,7 @@ The `.gitignore` file in this repository is set up to ensure that common files (
    - The rules in that `.gitignore` file will only apply to that specific subdirectory.
 
 ### Example of Folder Structure:
+<!-- Here is the most important piece of information...
+() has put almost every single route into categories and we can thus work with it effectively  each one of them having their own layout as well as not found -->
+
+`Huge Warning: Either use object-metadata or use dynamically generated metadata for one route nothing else`

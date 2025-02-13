@@ -4,6 +4,13 @@
 export default async function UrlCatchingandSegmentingDocs({params,}:{
     params:Promise<{slug:string[]}>;
 }){
+
+    // To make the page load intentionally late to display the loading.tsx
+    await new Promise((resolve)=>{
+        setTimeout(()=>{
+            resolve("intentional delay");
+        },2000);
+    })
     const {slug} = await params;
     if(slug?.length===2){
         return(
